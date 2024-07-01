@@ -1,0 +1,77 @@
+.html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(225, 191, 225);
+    font-family: cursive;
+}
+button{
+ width:auto;
+    height: 40px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+#addBookBtn{
+    width:auto;
+}
+button:hover{
+    background-color: rgb(234, 185, 185);
+}
+.addBook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.form-container {
+    display: none; /* Form is initially hidden */
+
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    /* display: none; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(165, 200, 211);
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(165, 200, 211);
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width:50%;
+}
+#library{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.container{
+    height:100vh;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
